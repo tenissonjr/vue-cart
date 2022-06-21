@@ -16,6 +16,10 @@
             <router-link class="btn btn-ghost btn-sm rounded-btn" to="/">
                 Home
             </router-link> 
+            <router-link class="btn btn-ghost btn-sm rounded-btn" to="/pesquisar">
+                Pesquisar
+            </router-link> 
+
             <router-link class="btn btn-ghost btn-sm rounded-btn" to="/cart">
                 Cart
                 <div class="badge ml-2 badge-outline" v-text="count"></div>
